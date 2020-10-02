@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 struct node
+	//The necessary comments have been made.
 {
 	struct node *lchild;
 	int data;
