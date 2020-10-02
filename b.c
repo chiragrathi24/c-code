@@ -139,5 +139,4 @@ int main()
 		}
 	}
 }
-// nice code keep this work doing 
-// you are a five star coder
+// nice code 
