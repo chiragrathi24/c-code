@@ -31,7 +31,7 @@ void insert(struct node *t,int key)
 		}
 		else
 		{
-			while(t!=NULL)
+			while(t!=NULL) //while loop begins
 			{
 				r=t;
 				if(key<t->data)
@@ -43,7 +43,7 @@ void insert(struct node *t,int key)
 					printf("Khusi already present\n");
 					return;
 				}
-			}
+			} //while loop ends
 			p=(struct node*)malloc(sizeof(struct node));
 			p->data=key;
 			p->lchild=p->rchild=NULL;
@@ -93,7 +93,7 @@ int postorder(struct node *t)
 	}
 	return 0;
 }
-int main()
+int main() //main function
 {
 	int c;
 	while(1)
@@ -140,3 +140,4 @@ int main()
 	}
 }
 // nice code 
+//Great work by Kushagra
